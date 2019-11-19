@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("assets/Brandon_bld.otf") format("opentype");;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: 'Brandon Grotesque', sans-serif !important;
+  color: white;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #312C66;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: none; 
+}
+
+.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
